@@ -6,7 +6,8 @@ from pathlib import Path
 import subprocess
 
 FILES=['START_HERE.md','WORKFLOW.md','BRIEF.md','PREFERENCES.md','STATUS.md','IDEAS.md',
-       'EVIDENCE.md','DECISIONS.md','DELIVERIES.md','ENVIRONMENT.md','HANDOFF_CHECKLIST.md']
+       'EVIDENCE.md','DECISIONS.md','DELIVERIES.md','ENVIRONMENT.md','HANDOFF_CHECKLIST.md',
+       'DELIVERY_TEMPLATE.md','EXPERIMENT_TEMPLATE.md']
 
 
 def export(project, output):
