@@ -5,7 +5,7 @@ import hashlib
 from pathlib import Path
 import subprocess
 
-FILES=['START_HERE.md','BRIEF.md','PREFERENCES.md','STATUS.md','IDEAS.md',
+FILES=['START_HERE.md','WORKFLOW.md','BRIEF.md','PREFERENCES.md','STATUS.md','IDEAS.md',
        'EVIDENCE.md','DECISIONS.md','DELIVERIES.md','ENVIRONMENT.md','HANDOFF_CHECKLIST.md']
 
 

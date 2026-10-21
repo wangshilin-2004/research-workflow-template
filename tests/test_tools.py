@@ -10,6 +10,9 @@ def module(name):
 init=module('init_project');out=module('export_handoff')
 
 class ToolTests(unittest.TestCase):
+    def test_workflow_copy_is_current(self):
+        self.assertEqual((ROOT/"WORKFLOW.md").read_text(),(ROOT/"templates/research/WORKFLOW.md").read_text())
+
     def test_conflict_copies_nothing(self):
         with tempfile.TemporaryDirectory() as d:
             p=Path(d);(p/'research').mkdir();(p/'research'/'STATUS.md').write_text('keep')

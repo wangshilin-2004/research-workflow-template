@@ -1,6 +1,6 @@
 # AI 接手入口
 
-模板版本：1。先读本文件，再按以下顺序阅读：
+模板版本：1。先读本文件与 [WORKFLOW.md](WORKFLOW.md)，再按以下顺序阅读：
 
 1. [BRIEF.md](BRIEF.md)：研究目标和边界。
 2. [PREFERENCES.md](PREFERENCES.md)：用户确认的工作习惯。
