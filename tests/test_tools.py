@@ -29,6 +29,8 @@ class ToolTests(unittest.TestCase):
             self.assertIn('来源：research/EXPERIMENT_TEMPLATE.md',target.read_text())
             self.assertIn('来源：research/RESEARCH_REVIEW.md',target.read_text())
             self.assertIn('来源：research/LESSONS.md',target.read_text())
+            self.assertIn('来源：research/LITERATURE.md',target.read_text())
+            self.assertIn('来源：research/CLAIMS.md',target.read_text())
             with self.assertRaises(FileExistsError):out.export(p,target)
             with self.assertRaises(ValueError):out.export(p,p/'research'/'STATUS.md')
     def test_symlink_source_rejected(self):

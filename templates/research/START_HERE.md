@@ -1,14 +1,15 @@
 # AI 接手入口
 
-模板版本：2。先读本文件与 [WORKFLOW.md](WORKFLOW.md)，再按以下顺序阅读：
+模板版本：1.0.0。先读本文件与 [WORKFLOW.md](WORKFLOW.md)，再按以下顺序阅读：
 
 1. [BRIEF.md](BRIEF.md)：研究目标和边界。
 2. [PREFERENCES.md](PREFERENCES.md)：用户确认的工作习惯。
 3. [STATUS.md](STATUS.md)：当前状态、最后已知提交、下一步。
 4. [IDEAS.md](IDEAS.md)、[EVIDENCE.md](EVIDENCE.md)、[DECISIONS.md](DECISIONS.md)：假设和证据演变。
 5. [DELIVERIES.md](DELIVERIES.md)：前任交付、实际产物与复核状态。
-6. [RESEARCH_REVIEW.md](RESEARCH_REVIEW.md)、[LESSONS.md](LESSONS.md)：阶段目的、证据缺口与经验。
-7. [ENVIRONMENT.md](ENVIRONMENT.md)、[HANDOFF_CHECKLIST.md](HANDOFF_CHECKLIST.md)：执行环境和交接核查。
+6. [LITERATURE.md](LITERATURE.md)、[CLAIMS.md](CLAIMS.md)：近邻核查与论文主张；尚未使用时可以留空。
+7. [RESEARCH_REVIEW.md](RESEARCH_REVIEW.md)、[LESSONS.md](LESSONS.md)：阶段目的、证据缺口与经验。
+8. [ENVIRONMENT.md](ENVIRONMENT.md)、[HANDOFF_CHECKLIST.md](HANDOFF_CHECKLIST.md)：执行环境和交接核查。
 
 STATUS 是当前任务唯一入口；旧实验说明中的“下一步”可能已过时。后来的用户指令优先于文件。模板未填字段是未知，不是待办授权。
 
