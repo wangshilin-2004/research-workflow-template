@@ -27,12 +27,21 @@ class ToolTests(unittest.TestCase):
             self.assertIn('SHA256',target.read_text())
             self.assertIn('来源：research/DELIVERY_TEMPLATE.md',target.read_text())
             self.assertIn('来源：research/EXPERIMENT_TEMPLATE.md',target.read_text())
+            self.assertIn('来源：research/RESEARCH_REVIEW.md',target.read_text())
+            self.assertIn('来源：research/LESSONS.md',target.read_text())
             with self.assertRaises(FileExistsError):out.export(p,target)
             with self.assertRaises(ValueError):out.export(p,p/'research'/'STATUS.md')
     def test_symlink_source_rejected(self):
         with tempfile.TemporaryDirectory() as d:
             p=Path(d);init.initialize(p);f=p/'research'/'STATUS.md';f.unlink();f.symlink_to(p/'research'/'BRIEF.md')
             with self.assertRaises(ValueError):out.export(p,p/'snapshot.md')
+    def test_v1_project_can_export_without_optional_records(self):
+        with tempfile.TemporaryDirectory() as d:
+            p=Path(d);init.initialize(p)
+            for name in out.OPTIONAL_FILES:(p/'research'/name).unlink()
+            target=p/'snapshot.md';out.export(p,target)
+            self.assertNotIn('来源：research/LESSONS.md',target.read_text())
+
     def test_missing_file_rejected(self):
         with tempfile.TemporaryDirectory() as d:
             with self.assertRaises(ValueError):out.export(d,Path(d)/'out.md')

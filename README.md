@@ -48,3 +48,7 @@ python3 tools/export_handoff.py --project /path/to/project --output /path/to/han
 ```bash
 python3 -m unittest discover -s tests -v
 ```
+
+## 阶段复盘与方法积累（模板 v2）
+
+新项目包含 RESEARCH_REVIEW（全局目的与下一项决策）和 LESSONS（有证据与边界的经验）。已有项目只补充缺失文件并审查规则，不覆盖其事实记录。导出器兼容没有这两个文件的 v1 项目；存在时纳入交接包。通用流程明确区分探针、筛选和确认，包含机制对照、异步计时、负结果边界与纠错纪律。

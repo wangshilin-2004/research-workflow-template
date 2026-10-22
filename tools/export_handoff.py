@@ -10,9 +10,13 @@ FILES=['START_HERE.md','WORKFLOW.md','BRIEF.md','PREFERENCES.md','STATUS.md','ID
        'DELIVERY_TEMPLATE.md','EXPERIMENT_TEMPLATE.md']
 
 
+OPTIONAL_FILES = ['RESEARCH_REVIEW.md', 'LESSONS.md']
+
 def export(project, output):
     project=Path(project).resolve();output=Path(output).absolute()
     sources=[project/'research'/name for name in FILES]
+    sources += [project/'research'/name for name in OPTIONAL_FILES
+                if (project/'research'/name).exists() or (project/'research'/name).is_symlink()]
     for p in sources:
         if p.is_symlink() or not p.is_file() or not p.resolve().is_relative_to(project):
             raise ValueError('Missing or unsafe source: '+p.name)
