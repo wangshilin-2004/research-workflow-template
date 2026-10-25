@@ -10,7 +10,7 @@ FILES=['START_HERE.md','WORKFLOW.md','BRIEF.md','PREFERENCES.md','STATUS.md','ID
        'DELIVERY_TEMPLATE.md','EXPERIMENT_TEMPLATE.md']
 
 
-OPTIONAL_FILES = ['RESEARCH_REVIEW.md', 'LESSONS.md', 'LITERATURE.md', 'CLAIMS.md']
+OPTIONAL_FILES = ['RESEARCH_REVIEW.md', 'LESSONS.md', 'LITERATURE.md', 'CLAIMS.md', 'RESULTS_SUMMARY.md']
 
 def export(project, output):
     project=Path(project).resolve();output=Path(output).absolute()

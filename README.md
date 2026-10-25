@@ -56,6 +56,7 @@ python3 tools/export_handoff.py --project /path/to/your-project --output /path/t
 | EXPERIMENT_TEMPLATE / ENVIRONMENT | 实验设计、执行位置、配置与结果位置 |
 | DELIVERIES / HANDOFF_CHECKLIST | 实际交付、独立复核状态与接力检查 |
 | RESEARCH_REVIEW / CLAIMS | 阶段方向审查、论文主张与证据缺口 |
+| RESULTS_SUMMARY | 累计有效成果、证据范围、负例与尚未证明的主张 |
 | LESSONS | 有依据、有边界、能改变做法的经验 |
 
 不保存 AI 的内部思维链；保存的是别人可以核查的研究判断依据。历史通过追加记录与 Git 保留，当前状态保持简洁。

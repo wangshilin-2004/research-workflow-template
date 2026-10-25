@@ -4,7 +4,7 @@
 
 1. [BRIEF.md](BRIEF.md)：研究目标和边界。
 2. [PREFERENCES.md](PREFERENCES.md)：用户确认的工作习惯。
-3. [STATUS.md](STATUS.md)：当前状态、最后已知提交、下一步。
+3. [STATUS.md](STATUS.md)：当前状态、最后已知提交、下一步；[RESULTS_SUMMARY.md](RESULTS_SUMMARY.md)：累计成果与证据边界（可选）。
 4. [IDEAS.md](IDEAS.md)、[EVIDENCE.md](EVIDENCE.md)、[DECISIONS.md](DECISIONS.md)：假设和证据演变。
 5. [DELIVERIES.md](DELIVERIES.md)：前任交付、实际产物与复核状态。
 6. [LITERATURE.md](LITERATURE.md)、[CLAIMS.md](CLAIMS.md)：近邻核查与论文主张；尚未使用时可以留空。
