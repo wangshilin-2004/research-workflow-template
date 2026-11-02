@@ -14,6 +14,8 @@
 
 方法参考（2026-11-02阅读，择取适用原则，不整套照搬）：[Scientific Problem Selection](https://github.com/anthropics/life-sciences/blob/main/scientific-problem-selection/SKILL.md)及其中的决策树/受挫应对模块；[Scientific Brainstorming](https://github.com/Research-Equality/RE-idea-generation/blob/main/skills/scientific-brainstorming/SKILL.md)。这些是方法指导，不是算法新颖性或论文录用保证。
 
+预测误差与决策价值分别评估：一种信息未必降低总体平均误差，却可能在关键动作边界有用。先核对相同已访问历史中选择是否改变，再比较完整策略；选中动作上的误差不能代替未选动作的反事实质量。冷启动或校准阶段的推进差异可形成机制线索，未单独干预时不能称已测得其纯净效应。正负结果并存时，先冻结可运行版本并换未见输入确认，避免围绕开发数据立即加模块。
+
 ## 研究循环
 
 1. 问题定位：谁在什么条件下受到什么限制？明确最终指标和不能牺牲的性质。
