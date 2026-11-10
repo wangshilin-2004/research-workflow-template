@@ -20,6 +20,10 @@
 
 模板的 WORKFLOW.md 与 templates/research/WORKFLOW.md 保持一致，由测试检查。新核心模板加入后，确认是否需要交接导出；新增记录优先采用可选导出，避免旧项目失效。
 
+## 按需采用精简交接
+
+把目标、关键结论、暂缓理由和唯一下一步写入 STATUS，并整理 PREFERENCES。两份能独立交接后，在 STATUS 中单独留一行 `<!-- handoff: compact-v1 -->` 即启用默认短包；未迁移项目沿用既有导出范围。完整案例仍可从[历史工作流](https://github.com/wangshilin-2004/research-workflow-template/blob/e72043ddcc50d63b35549757e48b94bd78e63c42/WORKFLOW.md)或[历史模板副本](https://github.com/wangshilin-2004/research-workflow-template/blob/e72043ddcc50d63b35549757e48b94bd78e63c42/templates/research/WORKFLOW.md)追溯。
+
 ## 老项目升级：比较后合并
 
 1. 保持课题已有记录完整，先查看未提交修改与当前模板版本。
